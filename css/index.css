@@ -1,0 +1,72 @@
+.hero {
+    height: 85vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=1474&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.badge { 
+    background: var(--dorado); 
+    color: black; 
+    padding: 5px 15px; 
+    font-weight: 800; 
+    text-transform: uppercase; 
+    border-radius: 2px; 
+    font-size: 0.8rem; 
+}
+
+.hero h1 { 
+    font-size: clamp(2.5rem, 8vw, 4.5rem); 
+    text-transform: uppercase; 
+    margin: 20px 0; 
+    letter-spacing: 3px; 
+}
+
+.hero p { 
+    max-width: 600px; 
+    margin: 0 auto 35px; 
+    font-size: 1.1rem; 
+    opacity: 0.9; 
+}
+
+.btn-main { 
+    background: var(--dorado); 
+    color: black; 
+    padding: 15px 30px; 
+    text-decoration: none; 
+    font-weight: 700; 
+    border-radius: 4px; 
+    display: inline-block; 
+    transition: 0.3s; 
+    margin: 5px; 
+    text-transform: uppercase; 
+}
+
+.btn-sec { 
+    background: transparent; 
+    border: 2px solid white; 
+    color: white; 
+    padding: 13px 30px; 
+    text-decoration: none; 
+    font-weight: 700; 
+    border-radius: 4px; 
+    display: inline-block; 
+    transition: 0.3s; 
+    margin: 5px; 
+    text-transform: uppercase; 
+}
+
+.btn-main:hover { 
+    background: white; 
+    transform: translateY(-3px); 
+}
+
+.btn-sec:hover { 
+    background: white; 
+    color: black; 
+}
